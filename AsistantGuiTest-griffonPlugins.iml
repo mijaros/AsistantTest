@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$USER_HOME$/.griffon/1.5.0/projects/AsistantGuiTest/plugins/glazedlists-2.0.0" />
     <content url="file://$USER_HOME$/.griffon/1.5.0/projects/AsistantGuiTest/plugins/miglayout-1.0.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/AsistantGuiTest/plugins/splash-1.0.0" />
     <content url="file://$USER_HOME$/.griffon/1.5.0/projects/AsistantGuiTest/plugins/swing-1.4.0" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
