@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/AsistantGuiTest/plugins/glazedlists-2.0.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/AsistantGuiTest/plugins/miglayout-1.0.0" />
+    <content url="file://$USER_HOME$/.griffon/1.5.0/projects/AsistantGuiTest/plugins/swing-1.4.0" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="griffon-1.5.0" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="glazedlists_java15-1.9.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="json-simple-1.1.1" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library name="Griffon:lib (AsistantGuiTest-griffonPlugins)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
