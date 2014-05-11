@@ -6,6 +6,9 @@ import ca.odell.glazedlists.SortedList
 import groovy.beans.Bindable
 import org.json.simple.JSONObject
 
+/**
+ * Model of main view
+ */
 class AsistantGuiTestModel {
 
     EventList<JSONObject> jsons = new SortedList<JSONObject>(new BasicEventList<JSONObject>(),

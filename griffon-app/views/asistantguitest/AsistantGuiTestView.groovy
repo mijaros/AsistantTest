@@ -4,6 +4,9 @@ import ca.odell.glazedlists.gui.TableFormat
 import ca.odell.glazedlists.swing.DefaultEventTableModel
 import org.json.simple.JSONObject
 
+/**
+ * Main View script
+ */
 actions {
     action(id: 'startTablet',
             name: 'Spustit',
@@ -14,7 +17,12 @@ actions {
 }
 
 private def genTableModel() {
-    def columnNames = ['no', 'breed', 'mark', 'rank', 'note']
+    def columnNames = ['no', 'breed', 'ems', 'class',
+            'sex', 'born', 'type', 'head',
+            'eyes', 'ears', 'coat', 'tail',
+            'condition', 'impress', 'comment',
+            'mark', 'rank', 'biv', 'nomination',
+            'note', 'title', 'reason']
     return new DefaultEventTableModel<JSONObject>(model.jsons, [
             getColumnCount: { columnNames.size() },
             getColumnName: { int index -> columnNames[index] as String },

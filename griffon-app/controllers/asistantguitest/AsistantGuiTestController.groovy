@@ -8,6 +8,10 @@ import java.beans.PropertyChangeEvent
 import java.beans.PropertyChangeListener
 
 
+/**
+ * The controller for manage of views actions and events
+ *
+ */
 class AsistantGuiTestController {
     // these will be injected by Griffon
     def model
