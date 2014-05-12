@@ -19,9 +19,13 @@ class AsistantGuiTestController {
 
     private def socketThread = null
 
+    @Override
+    void mvcGroupInit(Map args) {
+
+    }
 
     def startAction = { evt = null ->
-        if(socketThread != null) return
+        if (socketThread != null) return
         log.info 'Starting server'
         socketThread = new SocketThread([propertyChange: { PropertyChangeEvent e ->
             log.info "New json obtained ${e.newValue.get('no')}"
@@ -33,10 +37,10 @@ class AsistantGuiTestController {
         socketThread.start()
     }
 
-    def testProperty = {evt = null ->
+    def testProperty = { evt = null ->
         JSONObject o = new JSONObject(['no': '123', 'breed': 'PER',
-        'mark': 'Excellent', 'rank': '1', 'note' :'nic'])
-        execInsideUIAsync{
+                'mark': 'Excellent', 'rank': '1', 'note': 'nic'])
+        execInsideUIAsync {
             model.jsons.add(o)
         }
     }

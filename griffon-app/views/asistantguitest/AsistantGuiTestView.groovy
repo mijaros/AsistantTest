@@ -19,7 +19,18 @@ actions {
 private def genTableModel() {
     def columnNames = ['no', 'breed', 'ems', 'class',
             'sex', 'born', 'type', 'head',
-            'eyes', 'ears', 'coat', 'tail',
+            'eyes', 'ears', 'coat']
+    return new DefaultEventTableModel<JSONObject>(model.jsons, [
+            getColumnCount: { columnNames.size() },
+            getColumnName: { int index -> columnNames[index] as String },
+            getColumnValue: { object, index ->
+                object.get(columnNames[index])
+            }
+    ] as TableFormat<JSONObject>)
+}
+
+private def genScndHalfTableModel() {
+    def columnNames = ['tail',
             'condition', 'impress', 'comment',
             'mark', 'rank', 'biv', 'nomination',
             'note', 'title', 'reason']
@@ -32,26 +43,26 @@ private def genTableModel() {
     ] as TableFormat<JSONObject>)
 }
 
-application(title: 'AsistantGuiTest',
-        preferredSize: [480, 320],
-        pack: true,
-        //location: [50,50],
-        locationByPlatform: true,
-        iconImage: imageIcon('/griffon-icon-48x48.png').image,
-        iconImages: [imageIcon('/griffon-icon-48x48.png').image,
-                imageIcon('/griffon-icon-32x32.png').image,
-                imageIcon('/griffon-icon-16x16.png').image]) {
-    // add content here
-    borderLayout()
-    scrollPane(constraints: CENTER) {
-        table(id: 'AsistantTable', model: genTableModel()) {
+tabbedPane(tabGroup, selectedIndex: tabGroup.tabCount) {
+    panel(title: 'The entries') {// add content here
+        migLayout layoutConstraints: 'fill',
+                rowConstraints: '[40%, grow 50][40%, grow 50][]',
+                columnConstraints: '[grow]'
+        scrollPane(constraints: 'grow, wrap') {
+            table(id: 'AsistantTable', model: genTableModel()) {
             installTableComparatorChooser(source: model.jsons)
         }
     }
-    panel(constraints: SOUTH) {
-        migLayout(layoutConstraints: 'fill')
+        scrollPane(constraints: 'grow, wrap') {
+            table(id: 'AsistantTable2', model: genScndHalfTableModel()) {
+                installTableComparatorChooser(source: model.jsons)
+            }
+        }
+        panel(constraints: 'span') {
+            migLayout(layoutConstraints: 'fill')
 
         button(startTablet)
         button(testProperty)
+        }
     }
 }

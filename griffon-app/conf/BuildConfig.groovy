@@ -7,8 +7,8 @@ environments {
                 // keystore = "${basedir}/griffon-app/conf/keys/devKeystore"
                 // alias = 'development'
                 storepass = 'BadStorePassword'
-                keypass   = 'BadKeyPassword'
-                lazy      = true // only sign when unsigned
+                keypass = 'BadKeyPassword'
+                lazy = true // only sign when unsigned
             }
         }
     }
@@ -93,7 +93,7 @@ signingkey {
         alias = env
         // storepass = 'BadStorePassword'
         // keypass   = 'BadKeyPassword'
-        lazy      = true // only sign when unsigned
+        lazy = true // only sign when unsigned
     }
 }
 
@@ -112,39 +112,39 @@ deploy {
         homepage = "http://localhost/${appName}"
         description {
             complete = "${appName} ${appVersion}"
-            oneline  = "${appName} ${appVersion}"
-            minimal  = "${appName} ${appVersion}"
-            tooltip  = "${appName} ${appVersion}"
+            oneline = "${appName} ${appVersion}"
+            minimal = "${appName} ${appVersion}"
+            tooltip = "${appName} ${appVersion}"
         }
         icon {
             'default' {
-                name   = 'griffon-icon-64x64.png'
-                width  = '64'
+                name = 'griffon-icon-64x64.png'
+                width = '64'
                 height = '64'
             }
             splash {
-                name   = 'griffon.png'
-                width  = '391'
+                name = 'griffon.png'
+                width = '391'
                 height = '123'
             }
             selected {
-                name   = 'griffon-icon-64x64.png'
-                width  = '64'
+                name = 'griffon-icon-64x64.png'
+                width = '64'
                 height = '64'
             }
             disabled {
-                name   = 'griffon-icon-64x64.png'
-                width  = '64'
+                name = 'griffon-icon-64x64.png'
+                width = '64'
                 height = '64'
             }
             rollover {
-                name   = 'griffon-icon-64x64.png'
-                width  = '64'
+                name = 'griffon-icon-64x64.png'
+                width = '64'
                 height = '64'
             }
             shortcut {
-                name   = 'griffon-icon-64x64.png'
-                width  = '64'
+                name = 'griffon-icon-64x64.png'
+                width = '64'
                 height = '64'
             }
         }
@@ -163,6 +163,12 @@ griffon.project.dependency.resolution = {
         // from public Maven repositories
         mavenLocal()
         mavenCentral()
+        mavenRepo "http://snapshots.repository.codehaus.org"
+        mavenRepo "http://repository.codehaus.org"
+        mavenRepo "http://download.java.net/maven/2/"
+        mavenRepo "http://repository.jboss.com/maven2/"
+        mavenRepo "http://repo.spring.io/milestone"
+        mavenRepo "http://repo.spring.io/release"
         //mavenRepo "http://snapshots.repository.codehaus.org"
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
@@ -175,6 +181,11 @@ griffon.project.dependency.resolution = {
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime' or 'test' scopes eg.
         compile 'com.googlecode.json-simple:json-simple:1.1.1'
+        runtime "org.grails:grails-datastore-gorm-hibernate4:3.0.0.RELEASE"
+        runtime "org.grails:grails-spring:2.3.6"
+        runtime "com.h2database:h2:1.3.164"
+        compile "org.springframework:spring-expression:3.2.4.RELEASE"
+        compile 'org.springframework:spring-core:3.2.7.RELEASE'
         // runtime 'mysql:mysql-connector-java:5.1.5'
     }
 }
@@ -187,10 +198,10 @@ log4j = {
     }
 
     error 'org.codehaus.griffon',
-          'org.springframework',
-          'org.apache.karaf',
-          'groovyx.net'
-    warn  'griffon'
+            'org.springframework',
+            'org.apache.karaf',
+            'groovyx.net'
+    warn 'griffon'
 }
 
 

@@ -11,6 +11,11 @@
     <orderEntry type="library" scope="PROVIDED" name="griffon-1.5.0" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="glazedlists_java15-1.9.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="json-simple-1.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-datastore-gorm-hibernate4-3.0.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-spring-2.3.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="spring-core-3.2.7.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="spring-expression-3.2.4.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-core-2.3.6" level="project" />
     <orderEntry type="module-library" exported="">
       <library name="Griffon:lib (AsistantGuiTest-griffonPlugins)">
         <CLASSES />
