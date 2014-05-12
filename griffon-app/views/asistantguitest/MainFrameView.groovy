@@ -1,5 +1,15 @@
 package asistantguitest
 
+import asistantguitest.domain.Entry
+import asistantguitest.domain.Judge
+import ca.odell.glazedlists.EventList
+import ca.odell.glazedlists.gui.TableFormat
+import ca.odell.glazedlists.gui.WritableTableFormat
+import ca.odell.glazedlists.swing.DefaultEventTableModel
+
+
+import javax.swing.JComboBox
+
 actions {
 
 }
@@ -18,7 +28,7 @@ application(title: 'asistantGuiTest',
     tabbedPane(id: 'MainTabbedPane') {
         panel(title: 'Main Content') {
             migLayout(layoutConstraints: 'fill', columnConstraints: '[70%, grow][30%, grow]',
-                    rowConstraints: '[33%, grow][33%, grow][33%, grow]')
+                    rowConstraints: '[30%, grow 33][30%, grow 33][30%, grow 33][]')
             panel(border: titledBorder(title: 'cat'), constraints: 'grow') {
                 migLayout(layoutConstraints: 'fill')
 
@@ -39,7 +49,34 @@ application(title: 'asistantGuiTest',
             }
 
             scrollPane(constraints: 'span, grow, wrap') {
-                table(id: 'yess')
+                table(id: 'yess') {
+                    def cols = ['No', 'Name', 'Class', 'Judge']
+                    def vars = ['no', 'described', 'catClass', 'judge']
+                    def subVars = ['described': 'name']
+                    tableF =
+                            [
+                                    getColumnCount: { -> cols.size() },
+                                    getColumnName: { i -> cols[i] },
+                                    getColumnValue: { o, i ->
+                                        if (subVars.containsKey(vars[i])) {
+                                            o."${vars[i]}"."${subVars[vars[i]]}"
+                                        } else o."${vars[i]}"
+
+                                    },
+                                    isEditable: { i -> return !(i < 0 || i == 1) },
+                                    setColumnValue: { o, c, i ->
+                                        def y = model.entries.find { it.id = o.id }
+                                        y.putAt(vars[i], c)
+                                    },
+                                    getColumnClass: { i ->
+                                        if (i == 3) JComboBox.class
+                                        else String
+                                    }
+                            ] as WritableTableFormat
+                    eventTableModel(source: model.entries, format: tableF)
+
+                }
+
             }
             panel(constraints: 'growx, span') {
                 migLayout(layoutConstraints: 'rtl, fill', columnConstraints: '[][][grow]')

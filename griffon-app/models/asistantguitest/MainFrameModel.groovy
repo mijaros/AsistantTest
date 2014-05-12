@@ -17,6 +17,7 @@ class MainFrameModel {
     EventList<Judge> judges = new SortedList<>(new BasicEventList<Judge>(),
             { Judge a, Judge b -> a.id <=> b.id } as Comparator)
 
-    EventList<Entry> entries = new SortedList<>(new BasicEventList<Entry>(),
+    EventList<Entry> entries = new SortedList<>(new BasicEventList<Entry>(data: [new Entry(no: '12',
+            described: new Cat(name: 'Kocicka'))]),
             { Entry a, Entry b -> a.no <=> b.no } as Comparator)
 }

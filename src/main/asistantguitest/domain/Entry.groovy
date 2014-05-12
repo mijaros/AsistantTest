@@ -8,6 +8,7 @@ import grails.persistence.Entity
 @Entity
 class Entry {
 
+    Judge judge
 
     Cat described
 
