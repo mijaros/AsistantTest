@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25789a64-c2e0-4e56-b3fc-aa281288462e" name="Default" comment="Updated view of messages from tablet&#10;">
+    <list default="true" id="25789a64-c2e0-4e56-b3fc-aa281288462e" name="Default" comment="&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/h2_1_3_164.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_jdbc_3_2_7_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/conf/Application.groovy" afterPath="$PROJECT_DIR$/griffon-app/conf/Application.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsistantGuiTest-griffonPlugins.iml" afterPath="$PROJECT_DIR$/AsistantGuiTest-griffonPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsistantGuiTest.iml" afterPath="$PROJECT_DIR$/AsistantGuiTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/controllers/asistantguitest/AsistantGuiTestController.groovy" afterPath="$PROJECT_DIR$/griffon-app/controllers/asistantguitest/AsistantGuiTestController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/asistantguitest/AsistantGuiTestControllerTests.groovy" afterPath="$PROJECT_DIR$/test/unit/asistantguitest/AsistantGuiTestControllerTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/models/asistantguitest/AsistantGuiTestModel.groovy" afterPath="$PROJECT_DIR$/griffon-app/models/asistantguitest/AsistantGuiTestModel.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/asistantguitest/AsistantGuiTestModelTests.groovy" afterPath="$PROJECT_DIR$/test/unit/asistantguitest/AsistantGuiTestModelTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/views/asistantguitest/AsistantGuiTestView.groovy" afterPath="$PROJECT_DIR$/griffon-app/views/asistantguitest/AsistantGuiTestView.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/griffon-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/conf/Builder.groovy" afterPath="$PROJECT_DIR$/griffon-app/conf/Builder.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/asistantguitest/domain/Cat.groovy" afterPath="$PROJECT_DIR$/src/main/asistantguitest/domain/Cat.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/griffon-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/Default.xml" afterPath="$PROJECT_DIR$/.idea/copyright/Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/asistantguitest/domain/Entry.groovy" afterPath="$PROJECT_DIR$/src/main/asistantguitest/domain/Entry.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/util/ImplementationOfInterface.java" afterPath="$PROJECT_DIR$/src/main/util/ImplementationOfInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/lifecycle/Initialize.groovy" afterPath="$PROJECT_DIR$/griffon-app/lifecycle/Initialize.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/asistantguitest/domain/Judge.groovy" afterPath="$PROJECT_DIR$/src/main/asistantguitest/domain/Judge.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/controllers/asistantguitest/MainFrameController.groovy" afterPath="$PROJECT_DIR$/griffon-app/controllers/asistantguitest/MainFrameController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/asistantguitest/MainFrameControllerTests.groovy" afterPath="$PROJECT_DIR$/test/unit/asistantguitest/MainFrameControllerTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/models/asistantguitest/MainFrameModel.groovy" afterPath="$PROJECT_DIR$/griffon-app/models/asistantguitest/MainFrameModel.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/asistantguitest/MainFrameModelTests.groovy" afterPath="$PROJECT_DIR$/test/unit/asistantguitest/MainFrameModelTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/views/asistantguitest/MainFrameView.groovy" afterPath="$PROJECT_DIR$/griffon-app/views/asistantguitest/MainFrameView.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/lifecycle/Ready.groovy" afterPath="$PROJECT_DIR$/griffon-app/lifecycle/Ready.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/util/ServerInterfaceBuilder.groovy" afterPath="$PROJECT_DIR$/src/main/util/ServerInterfaceBuilder.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/lifecycle/Shutdown.groovy" afterPath="$PROJECT_DIR$/griffon-app/lifecycle/Shutdown.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/lifecycle/Startup.groovy" afterPath="$PROJECT_DIR$/griffon-app/lifecycle/Startup.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/lifecycle/Stop.groovy" afterPath="$PROJECT_DIR$/griffon-app/lifecycle/Stop.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/conf/webstart/applet.html" afterPath="$PROJECT_DIR$/griffon-app/conf/webstart/applet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/conf/webstart/applet.jnlp" afterPath="$PROJECT_DIR$/griffon-app/conf/webstart/applet.jnlp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/conf/webstart/application.jnlp" afterPath="$PROJECT_DIR$/griffon-app/conf/webstart/application.jnlp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wrapper/griffon-wrapper.properties" afterPath="$PROJECT_DIR$/wrapper/griffon-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/griffon-app/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/util/package-info.groovy" afterPath="$PROJECT_DIR$/src/main/util/package-info.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/griffon-app/i18n/resources.properties" afterPath="$PROJECT_DIR$/griffon-app/i18n/resources.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AsistantGuiTest.iws" />
@@ -67,19 +105,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AsistantGuiTestView.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/griffon-app/views/asistantguitest/AsistantGuiTestView.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="13" selection-start="1412" selection-end="1412" vertical-scroll-proportion="2.0114613" vertical-offset="0" max-vertical-offset="1296">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Application.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/griffon-app/conf/Application.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="576">
+            <state line="24" column="33" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -88,25 +117,23 @@
       <file leaf-file-name="MainFrameView.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/griffon-app/views/asistantguitest/MainFrameView.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="35" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="461" max-vertical-offset="1710">
+            <state line="50" column="34" selection-start="1826" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2700">
               <folding>
-                <element signature="e#25#60#0" expanded="true" />
-                <marker date="1399907615742" expanded="true" signature="2473:2597" placeholder="{...}" />
-                <marker date="1399907615742" expanded="true" signature="2473:2511" placeholder="{" />
-                <marker date="1399907615742" expanded="true" signature="2555:2597" placeholder="}" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#651#686#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENCE.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENCE.md">
+      <file leaf-file-name="Cat.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/asistantguitest/domain/Cat.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="33" selection-start="10729" selection-end="11323" vertical-scroll-proportion="-138.46153" vertical-offset="0" max-vertical-offset="3726">
+            <state line="25" column="6" selection-start="747" selection-end="747" vertical-scroll-proportion="-1.6923077" vertical-offset="154" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
         </entry>
@@ -114,7 +141,7 @@
       <file leaf-file-name="DefaultEventTableModel.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/net.java.dev.glazedlists/glazedlists_java15/jars/glazedlists_java15-1.9.0.jar!/ca/odell/glazedlists/swing/DefaultEventTableModel.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="-17.16" vertical-offset="345" max-vertical-offset="882">
+            <state line="43" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="-19.96" vertical-offset="275" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -123,16 +150,27 @@
       <file leaf-file-name="ServerInterfaceBuilder.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/util/ServerInterfaceBuilder.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="50" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1044">
+            <state line="39" column="0" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="1152">
+              <folding>
+                <element signature="e#640#684#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/griffon-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="198" column="62" selection-start="5920" selection-end="5920" vertical-scroll-proportion="0.0" vertical-offset="3096" max-vertical-offset="3906">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Entry.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Entry.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/asistantguitest/domain/Entry.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="15" selection-start="144" selection-end="144" vertical-scroll-proportion="-4.8076925" vertical-offset="55" max-vertical-offset="1098">
+            <state line="12" column="73" selection-start="583" selection-end="583" vertical-scroll-proportion="0.62068963" vertical-offset="0" max-vertical-offset="1818">
               <folding />
             </state>
           </provider>
@@ -144,7 +182,7 @@
       <file leaf-file-name="Judge.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/asistantguitest/domain/Judge.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="-6.1923075" vertical-offset="91" max-vertical-offset="414">
+            <state line="32" column="27" selection-start="902" selection-end="902" vertical-scroll-proportion="-8.615385" vertical-offset="100" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -156,7 +194,7 @@
       <file leaf-file-name="MainFrameModel.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/griffon-app/models/asistantguitest/MainFrameModel.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+            <state line="35" column="74" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -165,7 +203,7 @@
       <file leaf-file-name="MainFrameController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/griffon-app/controllers/asistantguitest/MainFrameController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="97" column="39" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0" vertical-offset="1167" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -190,28 +228,30 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/griffon-app/lifecycle/Initialize.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/models/asistantguitest/AsistantGuiTestModel.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/lifecycle/package-info.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/conf/Application.groovy" />
-        <option value="$PROJECT_DIR$/griffon-app/controllers/asistantguitest/AsistantGuiTestController.groovy" />
-        <option value="$PROJECT_DIR$/griffon-app/views/asistantguitest/AsistantGuiTestView.groovy" />
         <option value="$PROJECT_DIR$/src/main/util/ServerInterfaceTestImpl.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/src/main/util/ServerInterfaceBuilder.groovy" />
         <option value="$PROJECT_DIR$/src/main/asistantguitest/domain/Cat.groovy" />
-        <option value="$PROJECT_DIR$/src/main/asistantguitest/domain/Judge.groovy" />
+        <option value="$PROJECT_DIR$/griffon-app/views/asistantguitest/AsistantGuiTestView.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/models/asistantguitest/MainFrameModel.groovy" />
+        <option value="$PROJECT_DIR$/griffon-app/lifecycle/Initialize.groovy" />
         <option value="$PROJECT_DIR$/griffon-app/views/asistantguitest/MainFrameView.groovy" />
+        <option value="$PROJECT_DIR$/griffon-app/controllers/asistantguitest/MainFrameController.groovy" />
+        <option value="$PROJECT_DIR$/griffon-app/controllers/asistantguitest/AsistantGuiTestController.groovy" />
+        <option value="$PROJECT_DIR$/src/main/util/ServerInterfaceBuilder.groovy" />
+        <option value="$PROJECT_DIR$/src/main/asistantguitest/domain/Judge.groovy" />
         <option value="$PROJECT_DIR$/src/main/asistantguitest/domain/Entry.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="31" />
-    <option name="width" value="1280" />
-    <option name="height" value="741" />
+    <option name="x" value="-2" />
+    <option name="y" value="-3" />
+    <option name="width" value="1284" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -241,6 +281,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -508,97 +549,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="griffon-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsistantGuiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsistantGuiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="griffon-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsistantGuiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsistantGuiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="griffon-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsistantGuiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsistantGuiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="griffon-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsistantGuiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsistantGuiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -608,7 +564,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="copyright" />
+    <property name="options.lastSelected" value="copyright.profiles" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -618,10 +574,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.ivy2/cache/org.grails/grails-core/jars/grails-core-2.3.6.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.ivy2/cache/com.h2database/h2/jars/h2-1.3.164.jar!/" />
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesGroovy" value="false" />
   </component>
   <component name="RunManager" selected="Griffon.Griffon:AsistantGuiTest">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -906,7 +863,10 @@
       <workItem from="1399864636434" duration="1256000" />
       <workItem from="1399867029284" duration="412000" />
       <workItem from="1399888269661" duration="4755000" />
-      <workItem from="1399895808529" duration="15905000" />
+      <workItem from="1399895808529" duration="18460000" />
+      <workItem from="1399928161758" duration="993000" />
+      <workItem from="1399990381186" duration="15150000" />
+      <workItem from="1400061847703" duration="9606000" />
     </task>
     <task id="LOCAL-00001" summary="Default Splash screen added">
       <created>1399670572398</created>
@@ -920,18 +880,22 @@
       <created>1399907617673</created>
       <updated>1399907617673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated view of messages from tablet&#10;">
+      <created>1399921506112</created>
+      <updated>1399921506112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41231000" />
+    <option name="totallyTimeSpent" value="69535000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1280" height="741" extended-state="0" />
+    <frame x="-2" y="-3" width="1284" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -942,24 +906,58 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32779455" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Griffon View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Griffon View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3247734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32779455" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Griffon View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32875606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.326284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -988,11 +986,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/griffon-app/lifecycle/Startup.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/lifecycle/Ready.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
@@ -1000,16 +993,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
-          <folding />
-        </state>
+        <state line="15" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3060">
-          <folding />
-        </state>
+        <state line="33" column="18" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3060" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/resources/griffon.png">
@@ -1066,9 +1055,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
-          <folding />
-        </state>
+        <state line="15" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/resources/griffon.png">
@@ -1143,11 +1130,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="348" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/lifecycle/Initialize.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="93" selection-start="404" selection-end="404" vertical-scroll-proportion="-10.384615" vertical-offset="0" max-vertical-offset="414" />
@@ -1183,35 +1165,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="0.48824593" vertical-offset="0" max-vertical-offset="553">
-          <folding />
-        </state>
+        <state line="15" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="0.48824593" vertical-offset="0" max-vertical-offset="553" />
       </provider>
     </entry>
     <entry file="jar://$GRIFFON_HOME$/dist/griffon-rt-1.5.0.jar!/griffon/core/GriffonMvcArtifact.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="9" selection-start="226" selection-end="226" vertical-scroll-proportion="0.33436534" vertical-offset="0" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/controllers/asistantguitest/AsistantGuiTestController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/models/asistantguitest/AsistantGuiTestModel.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="15" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="63" selection-start="5630" selection-end="5630" vertical-scroll-proportion="0.0" vertical-offset="3132" max-vertical-offset="3870">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/util/ImplementationOfInterface.java">
@@ -1221,57 +1180,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/asistantguitest/domain/Cat.groovy">
+    <entry file="file://$PROJECT_DIR$/LICENCE.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.7089041" vertical-offset="0" max-vertical-offset="584">
+        <state line="200" column="33" selection-start="10729" selection-end="11323" vertical-scroll-proportion="0.0" vertical-offset="3600" max-vertical-offset="3726">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+      <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/asistantguitest/AsistantGuiTestModelTests.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="6" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/net.java.dev.glazedlists/glazedlists_java15/jars/glazedlists_java15-1.9.0.jar!/ca/odell/glazedlists/swing/DefaultEventTableModel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="-17.16" vertical-offset="345" max-vertical-offset="882">
+        <state line="43" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="-19.96" vertical-offset="275" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/controllers/asistantguitest/MainFrameController.groovy">
+    <entry file="file://$PROJECT_DIR$/griffon-app/lifecycle/Initialize.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/models/asistantguitest/MainFrameModel.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+        <state line="39" column="31" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.9917355" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/griffon-app/conf/Application.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+        <state line="24" column="33" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/views/asistantguitest/AsistantGuiTestView.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="9" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1584">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/views/asistantguitest/MainFrameView.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="34" selection-start="1826" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2700">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#651#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/controllers/asistantguitest/MainFrameController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="39" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0" vertical-offset="1167" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/models/asistantguitest/AsistantGuiTestModel.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="6" selection-start="882" selection-end="882" vertical-scroll-proportion="0.47340426" vertical-offset="236" max-vertical-offset="612">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/controllers/asistantguitest/AsistantGuiTestController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="38" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="452" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="62" selection-start="5920" selection-end="5920" vertical-scroll-proportion="0.0" vertical-offset="3096" max-vertical-offset="3906">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/griffon-app/models/asistantguitest/MainFrameModel.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="74" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/asistantguitest/domain/Judge.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="-6.1923075" vertical-offset="91" max-vertical-offset="414">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/asistantguitest/domain/Entry.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="144" selection-end="144" vertical-scroll-proportion="-4.8076925" vertical-offset="55" max-vertical-offset="1098">
+        <state line="32" column="27" selection-start="902" selection-end="902" vertical-scroll-proportion="-8.615385" vertical-offset="100" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
@@ -1281,38 +1286,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/util/ServerInterfaceBuilder.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/views/asistantguitest/MainFrameView.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="461" max-vertical-offset="1674">
+        <state line="39" column="0" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="1152">
           <folding>
-            <element signature="e#25#60#0" expanded="true" />
-            <marker date="1399907615742" expanded="true" signature="2473:2597" placeholder="{...}" />
-            <marker date="1399907615742" expanded="true" signature="2473:2511" placeholder="{" />
-            <marker date="1399907615742" expanded="true" signature="2555:2597" placeholder="}" />
+            <element signature="e#640#684#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENCE.md">
+    <entry file="file://$PROJECT_DIR$/src/main/asistantguitest/domain/Cat.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="33" selection-start="10729" selection-end="11323" vertical-scroll-proportion="-138.46153" vertical-offset="0" max-vertical-offset="3726">
+        <state line="25" column="6" selection-start="747" selection-end="747" vertical-scroll-proportion="-1.6923077" vertical-offset="154" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/griffon-app/views/asistantguitest/AsistantGuiTestView.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/asistantguitest/domain/Entry.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1412" selection-end="1412" vertical-scroll-proportion="2.0114613" vertical-offset="0" max-vertical-offset="1296">
+        <state line="12" column="73" selection-start="583" selection-end="583" vertical-scroll-proportion="0.62068963" vertical-offset="0" max-vertical-offset="1818">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
@@ -1405,7 +1403,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>grails-core-2.3.6</last-edited>
+          <last-edited>h2-1.3.164</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

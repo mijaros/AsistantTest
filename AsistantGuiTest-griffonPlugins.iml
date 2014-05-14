@@ -16,6 +16,8 @@
     <orderEntry type="library" scope="PROVIDED" name="spring-core-3.2.7.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="spring-expression-3.2.4.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="grails-core-2.3.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="spring-jdbc-3.2.7.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="h2-1.3.164" level="project" />
     <orderEntry type="module-library" exported="">
       <library name="Griffon:lib (AsistantGuiTest-griffonPlugins)">
         <CLASSES />
