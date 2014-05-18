@@ -17,8 +17,9 @@
 package asistantguitest
 
 import ServerMultipleThreads.SocketThread
+import asistantguitest.domain.Entry
 import org.json.simple.JSONObject
-import util.ImplementationOfInterface
+
 
 import java.beans.PropertyChangeEvent
 import java.beans.PropertyChangeListener
@@ -28,10 +29,13 @@ import java.beans.PropertyChangeListener
  * The controller for manage of views actions and events
  *
  */
+
 class AsistantGuiTestController {
     // these will be injected by Griffon
     def model
     def view
+
+    def entryTransformerService
 
     private def socketThread = null
 
@@ -50,6 +54,17 @@ class AsistantGuiTestController {
             log.info "New json obtained ${e.newValue.get('no')}"
             execInsideUIAsync {
                 model.jsons.add e.newValue
+
+                execOutsideUI {
+                    entryTransformerService.transform(e.newValue) { Entry entry ->
+                        def tm = model.toSave.find { it.no == entry.no }
+                        execInsideUISync {
+                            model.toSave.remove tm
+                            model.toSave.add entry
+                        }
+
+                    }
+                }
             }
         }
         ] as PropertyChangeListener, tabInterface)
@@ -62,5 +77,22 @@ class AsistantGuiTestController {
         execInsideUIAsync {
             model.jsons.add(o)
         }
+    }
+
+    def saveAction = { evt = null ->
+        List<Entry> arr = new ArrayList<>()
+        execInsideUISync {
+            arr.addAll(model.toSave)
+            model.toSave.clear
+        }
+        arr.each { x ->
+            x.save()
+        }
+        Entry.withSession { session ->
+            session.flush()
+        }
+
+        log.info 'fire new entity'
+        app.event('NewEntity')
     }
 }

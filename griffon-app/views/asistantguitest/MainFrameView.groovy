@@ -17,9 +17,8 @@
 package asistantguitest
 
 import asistantguitest.domain.Judge
-import ca.odell.glazedlists.gui.AdvancedTableFormat
-import ca.odell.glazedlists.gui.WritableTableFormat
 import ca.odell.glazedlists.swing.DefaultEventComboBoxModel
+import util.WritableAdvancedTableFormat
 
 import javax.swing.DefaultCellEditor
 import javax.swing.JComboBox
@@ -27,7 +26,6 @@ import javax.swing.JList
 import javax.swing.plaf.basic.BasicComboBoxRenderer
 import java.awt.Component
 
-interface WritableAdvancedTableFormat<K> extends AdvancedTableFormat<K>, WritableTableFormat<K> {}
 
 actions {
     action(addCatAction, name: 'Add')
@@ -35,6 +33,9 @@ actions {
     action(generateEntriesAction, name: 'Generate all')
     action(startTabletAction, name: 'Start tablet')
     action(saveAllAction, name: 'Save entries')
+    action(deleteAllEntriesAction, name: 'Delete all entries')
+    action(deleteJudgesAction, name: 'Delete')
+    action(deleteCatsAction, name: 'Delete')
 }
 
 application(title: 'asistantGuiTest',
@@ -74,18 +75,27 @@ application(title: 'asistantGuiTest',
                 textField(id: 'judgeName', constraints: 'growx, wrap')
                 button(addJudgeAction)
             }
-            scrollPane(constraints: 'grow') {
-                table(id: 'noo') {
+            panel(constraints: 'grow') {
+                migLayout(layoutConstraints: 'fill', rowConstraints: '[grow][]')
+
+                scrollPane(constraints: 'grow, wrap') {
+                    table(id: 'noo') {
                     tableFormat = defaultTableFormat(columnNames: ['name',
                             'breed', 'ems', 'sex', 'born'])
                     eventTableModel(source: model.cats, format: tableFormat)
                 }
             }
-            scrollPane(constraints: 'grow, wrap') {
+                button deleteCatsAction
+            }
+            panel(constraints: 'grow, wrap') {
+                migLayout(layoutConstraints: 'fill', rowConstraints: '[grow][]')
+                scrollPane(constraints: 'grow, wrap') {
                 table(id: 'noo2') {
                     tableFormat = defaultTableFormat(columnNames: ['name'])
                     eventTableModel(source: model.judges, format: tableFormat)
                 }
+            }
+                button deleteJudgesAction
             }
 
             scrollPane(constraints: 'span, grow, wrap') {
@@ -133,10 +143,11 @@ application(title: 'asistantGuiTest',
 
             }
             panel(constraints: 'growx, span') {
-                migLayout(layoutConstraints: 'rtl, fill', columnConstraints: '[][][][grow]')
+                migLayout(layoutConstraints: 'rtl, fill', columnConstraints: '[][][][][grow]')
                 button generateEntriesAction
                 button startTabletAction
                 button saveAllAction
+                button deleteAllEntriesAction
             }
 
         }

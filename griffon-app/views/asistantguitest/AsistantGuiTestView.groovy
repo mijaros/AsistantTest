@@ -30,6 +30,8 @@ actions {
     action(id: 'testProperty',
             name: 'Pridej',
             closure: controller.testProperty)
+
+    action(saveAction, name: 'Save')
 }
 
 private def genTableModel() {
@@ -79,6 +81,7 @@ tabbedPane(tabGroup, selectedIndex: tabGroup.tabCount) {
 
             button(startTablet)
             button(testProperty)
+            button(saveAction)
         }
     }
 }

@@ -16,6 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/griffon-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/griffon-app/conf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/griffon-app/lifecycle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/griffon-app/services" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -20,6 +20,7 @@ import asistantguitest.domain.Cat
 import asistantguitest.domain.Entry
 import asistantguitest.domain.Judge
 import ca.odell.glazedlists.EventList
+import org.codehaus.groovy.grails.orm.hibernate.SessionFactoryProxy
 import util.ServerInterfaceBuilder
 
 class MainFrameController {
@@ -64,6 +65,12 @@ class MainFrameController {
             def y = model.cats.find { it.id == f.id }
             if (y != null) model.cats.remove(y)
             model.cats.add f
+            view.catsName.text = ''
+            view.catsBreed.text = ''
+            view.catsEms.text = ''
+            view.catsSex.text = ''
+            view.catsSex.text = ''
+            view.catsBorn.text = ''
         }
     }
 
@@ -73,13 +80,18 @@ class MainFrameController {
         x.save()
         execInsideUIAsync {
             model.judges.add x
+            view.judgeName.text = ''
         }
     }
     def generateEntriesAction = { evt = null ->
+        log.info 'Ehlo'
         def x = new ArrayList<Cat>()
-        execInsideUIAsync {
-            x.addAll(model.cats)
+
+        execInsideUISync {
+            log.warn "${model.cats}"
+            x.addAll model.cats
         }
+        log.info("${x.size()}")
         def y = new ArrayList<Entry>()
         int no = 0
         x.each { value ->
@@ -88,6 +100,10 @@ class MainFrameController {
             log.warn e.errors.fieldError.toString()
             y.push(e)
         }
+        Entry.withSession { session ->
+            session.flush()
+        }
+
         execInsideUIAsync {
             model.entries.addAll y
         }
@@ -102,6 +118,54 @@ class MainFrameController {
         log.info 'Saving entires'
         model.entries.each { val ->
             val.save()
+        }
+    }
+
+    def deleteAllEntriesAction = { evt = null ->
+        def x = Entry.list()
+        x.each { val ->
+            val.delete()
+        }
+        Entry.withSession { session ->
+            session.flush()
+        }
+        execInsideUIAsync {
+            model.entries.clear()
+        }
+    }
+
+    def deleteJudgesAction = { evt = null ->
+        def x = Judge.list()
+        x.each { val ->
+            val.delete()
+        }
+        Judge.withSession { session ->
+            session.flush()
+        }
+        execInsideUIAsync {
+            model.judges.clear()
+        }
+    }
+
+    def deleteCatsAction = { evt = null ->
+        def x = Cat.list()
+        x.each { val ->
+            val.delete()
+        }
+        Cat.withSession { session ->
+            session.flush()
+        }
+        execInsideUIAsync {
+            model.cats.clear()
+        }
+    }
+
+    def onNewEntity = { app ->
+        log.debug 'New entity runned'
+        def x = Entry.list()
+        execInsideUISync {
+            model.entries.clear()
+            model.entries.addAll x
         }
     }
 }

@@ -14,23 +14,15 @@
  *    limitations under the License.
  */
 
-package asistantguitest
+package util
 
-import asistantguitest.domain.Entry
-import ca.odell.glazedlists.BasicEventList
-import ca.odell.glazedlists.EventList
-import ca.odell.glazedlists.SortedList
-import groovy.beans.Bindable
-import org.json.simple.JSONObject
+import ca.odell.glazedlists.gui.AdvancedTableFormat
+import ca.odell.glazedlists.gui.WritableTableFormat
 
 /**
- * Model of main view
+ * Created by mirek on 17.5.14.
  */
-class AsistantGuiTestModel {
-
-    EventList<JSONObject> jsons = new SortedList<JSONObject>(new BasicEventList<JSONObject>(),
-            { JSONObject a, JSONObject b -> a.get('no') <=> b.get('no') } as Comparator)
-
-    EventList<Entry> toSave = new BasicEventList<>()
+interface WritableAdvancedTableFormat<K> extends AdvancedTableFormat<K>,
+        WritableTableFormat<K> {
 
 }

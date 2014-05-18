@@ -1,0 +1,7 @@
+griffon-app.conf
+griffon-app.controllers.asistantguitest
+griffon-app.lifecycle
+griffon-app.models.asistantguitest
+griffon-app.views.asistantguitest
+src.main.util
+test.unit.asistantguitest

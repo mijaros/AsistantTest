@@ -25,6 +25,13 @@ application {
     //frameClass = 'javax.swing.JFrame'
 }
 mvcGroups {
+    // MVC Group for "entriesReview"
+    'entriesReview' {
+        model = 'asistantguitest.EntriesReviewModel'
+        view = 'asistantguitest.EntriesReviewView'
+        controller = 'asistantguitest.EntriesReviewController'
+    }
+
     // MVC Group for "mainFrame"
     'mainFrame' {
         model = 'asistantguitest.MainFrameModel'
@@ -34,8 +41,8 @@ mvcGroups {
 
     // MVC Group for "asistantGuiTest"
     'asistantGuiTest' {
-        model      = 'asistantguitest.AsistantGuiTestModel'
-        view       = 'asistantguitest.AsistantGuiTestView'
+        model = 'asistantguitest.AsistantGuiTestModel'
+        view = 'asistantguitest.AsistantGuiTestView'
         controller = 'asistantguitest.AsistantGuiTestController'
     }
 
